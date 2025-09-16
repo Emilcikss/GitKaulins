@@ -1,5 +1,5 @@
 package Kladbishe;
-
+import java.util.Scanner;
 import java.util.Random;
 
 public class nodarbiba1 {
@@ -14,5 +14,10 @@ static void mestkaulinu(int reizes) {
 }
 	public static void main(String[] args) {
 		mestkaulinu(5);
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Ievadiet cik reizes velāties mest kauliņu!");
+		int reizes = scan.nextInt();
+		mestKaulinu(reizes);
+		scan.close();
 	}
 }
