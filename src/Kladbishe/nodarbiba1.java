@@ -19,5 +19,7 @@ static void mestkaulinu(int reizes) {
 		int reizes = scan.nextInt();
 		mestKaulinu(reizes);
 		scan.close();
+
+		System.out.println("PALDIE SPAR SPELI!");
 	}
 }
